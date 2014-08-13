@@ -20,7 +20,10 @@ myCaffeLearning
 
 ### Installation in Ubuntu(just started)
 ### 01 Installing Ubuntu on windows 7
+* win7 fenqu
+ * 控制面板\系统和安全\管理工具 
+ * http://pcedu.pconline.com.cn/windows7/skill/1105/2416991_all.html 
 ### 02 Install CUDA-Linux
 ### 03 install MATLAB R2013b for Linux/Ubuntu
-* [http://blog.sina.com.cn/s/blog_e126b6140101jk3j.html]
+* http://blog.sina.com.cn/s/blog_e126b6140101jk3j.html
 
