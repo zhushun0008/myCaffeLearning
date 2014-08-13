@@ -3,7 +3,9 @@ myCaffeLearning
 
 ### This project is for me to configure the caffe environment and to use it for our research.
 
-### 01 Install Ultimate Visual Studio 2012
+### Installation in Windows(not finished )
+
+#### 01 Install Ultimate Visual Studio 2012
 * Downloading VS2012
 * Installing VS2012
   * If there is a serious problem occuring, please reference to 
@@ -12,7 +14,13 @@ myCaffeLearning
        * Re-installing VS2012
   * I have successfully installed VS2012 after uninstall Microsoft .NET Framework4.5
   
-### 02. Install CUDA Toolkit 6.0
+#### 02. Install CUDA Toolkit 6.0
 * Reference to 
    *  http://docs.nvidia.com/cuda/index.html#axzz39zwcGIkL
+
+### Installation in Ubuntu(just started)
+### 01 Installing Ubuntu on windows 7
+### 02 Install CUDA-Linux
+### 03 install MATLAB R2013b for Linux/Ubuntu
+* [http://blog.sina.com.cn/s/blog_e126b6140101jk3j.html]
 
