@@ -2,7 +2,11 @@ myCaffeLearning
 ===============
 
 ### This project is for me to configure the caffe environment and to use it for our research.
-#### Week 01
+#### Week 01's mission: successfully running Caffe
+1. CUDA 6.0  installed 
+2. compilation 
+3. Test
+
 #### Installation on Windows(not finished )
 ##### 01 Install Ultimate Visual Studio 2012
 * Downloading VS2012
