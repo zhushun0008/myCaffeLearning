@@ -24,11 +24,10 @@ myCaffeLearning
  * 控制面板\系统和安全\管理工具 
  * http://pcedu.pconline.com.cn/windows7/skill/1105/2416991_all.html 
  *
-2. 
-* 
-* http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
-* http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows
-  * if universal-usb-installer could not find the ISO file, please rename the ISO file like ubuntu-12.04-desktop-amd64(the correct name is needed for beed recognized by universal-usb-installer)
+2. fsfsdfs
+ * http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+ * http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows
+   * if universal-usb-installer could not find the ISO file, please rename the ISO file like ubuntu-12.04-desktop-amd64(the correct name is needed for beed recognized by universal-usb-installer)
 
 #### 02 Install CUDA-Linux
 #### 03 install MATLAB R2013b for Linux/Ubuntu
