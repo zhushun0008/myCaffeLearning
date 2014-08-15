@@ -59,6 +59,10 @@ myCaffeLearning
 mkdir release
 cd release
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..}}}
+3. libcudart.so.6.0: cannot open shared object file: No such file or directory when run make runtest
+ * export LD_LIBRARY_PATH=:/usr/local/cuda/lib64
+ * make runtest again
+
 
 #### 03 install MATLAB R2013b for Linux/Ubuntu
 * http://blog.sina.com.cn/s/blog_e126b6140101jk3j.html
