@@ -46,7 +46,10 @@ myCaffeLearning
 *
 #### 02 Install CUDA-Linux(Sucess)
 
-#### 03 Compilation
+#### 03 Compilation (Success)
+* make all (Success)
+* make test (Success)
+* make runtest (Success)
 ##### errors
 1. cblas.h: No such file or directory
   * ATLAS: free, open source, and so the default for Caffe.
@@ -67,3 +70,4 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..}}}
 #### 03 install MATLAB R2013b for Linux/Ubuntu
 * http://blog.sina.com.cn/s/blog_e126b6140101jk3j.html
 
+#### Week 02's mission
