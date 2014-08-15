@@ -46,6 +46,15 @@ myCaffeLearning
 *
 #### 02 Install CUDA-Linux(Sucess)
 
+#### 03 Compilation
+##### errors
+1. cblas.h: No such file or directory
+  * ATLAS: free, open source, and so the default for Caffe.
+  * sudo apt-get install libatlas-base-dev
+2. opencv2/core/core.hpp: No such file or directory
+  * Install Opencv
+  * http://www.raben.com/book/export/html/3
+
 #### 03 install MATLAB R2013b for Linux/Ubuntu
 * http://blog.sina.com.cn/s/blog_e126b6140101jk3j.html
 
