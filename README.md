@@ -54,6 +54,11 @@ myCaffeLearning
 2. opencv2/core/core.hpp: No such file or directory
   * Install Opencv
   * http://www.raben.com/book/export/html/3
+  * http://docs.opencv.org/doc/tutorials/introduction/linux_install/linux_install.html
+  {{{cd ~/opencv
+mkdir release
+cd release
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..}}}
 
 #### 03 install MATLAB R2013b for Linux/Ubuntu
 * http://blog.sina.com.cn/s/blog_e126b6140101jk3j.html
