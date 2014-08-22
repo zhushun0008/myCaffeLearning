@@ -70,4 +70,19 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..}}}
 #### 03 install MATLAB R2013b for Linux/Ubuntu
 * http://blog.sina.com.cn/s/blog_e126b6140101jk3j.html
 
-#### Week 02's mission
+#### Week 02 - 03's mission : Knowing Caffe
+1. Use Caffe to train MINIST dataset(LeNet)
+2. Use Caffe to train ImageNet
+3. How to configure the netwwork architecture with Protocal Buffer
+4. Use Caffe to train ImageNet
+
+#### 01 Use Use Caffe to train MINIST dataset(LeNet) (Success)
+Did the experiment following the link below
+http://caffe.berkeleyvision.org/gathered/examples/mnist.html
+In this experiment, the sample codes to train a LeNet for MINIST dataset
+* Define the neural network architecture
+   *  need to code 
+     *  train.prototxt, test.prototxt (network architecture LeNet here)
+     *  solver.prototxt (training parameters defined here)
+
+
