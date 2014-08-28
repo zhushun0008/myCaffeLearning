@@ -120,7 +120,7 @@ In this experiment, the sample codes to train a LeNet for MINIST dataset
       * Check whether Sum of Square as cost function works correctly
       * Change classification to Regression
 
-#### 04 Deploy neural network on the paper 'Learning a Deep Convolutional Network for Images Super-Resolution'
+#### Week 04 - 05 Deploy neural network on the paper 'Learning a Deep Convolutional Network for Images Super-Resolution'
 1. Auto-encoder to check sum of squre works well
    * layer-def
    * layer-params
