@@ -85,4 +85,14 @@ In this experiment, the sample codes to train a LeNet for MINIST dataset
      *  train.prototxt, test.prototxt (network architecture LeNet here)
      *  solver.prototxt (training parameters defined here)
 
-
+#### 03 Transform Caffe to cuda-convnet
+##### Why?
+After reading 'Learning a Deep Conv. Network For Image Super-Resolution' again, I found their implementation based on convnet[14], which is cuda-convnet  
+Compiling -- how to check out and compile this code.
+Data -- what kind of data this net can train on.
+LayerParams -- how to specify an architecture for the net.
+NeuronTypes -- types of hidden unit nonlinearities.
+TrainingNet -- how to train the net.
+Options -- the command-line arguments that the net takes.
+ViewingNet -- how to look inside the checkpoints saved by the net.
+CheckingGradients -- how to numerically test the gradients for correctness.
