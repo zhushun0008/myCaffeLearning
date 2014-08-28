@@ -103,8 +103,10 @@ In this experiment, the sample codes to train a LeNet for MINIST dataset
 1. running the demo code.
   1. Compiling -- how to check out and compile this code.
   2. Data -- what kind of data this net can train on.(CIFAR-10 dataSet)
+       * http://www.cs.toronto.edu/~kriz/cifar.html
   3. LayerParams -- how to specify an architecture for the net. (Define Net architecture and parameters)
-      * http://www.cs.toronto.edu/~kriz/cifar.html
+       * https://code.google.com/p/cuda-convnet/source/browse/trunk/example-layers/layers-conv-local-11pct.cfg
+       * https://code.google.com/p/cuda-convnet/source/browse/trunk/example-layers/layer-params-conv-local-11pct.cfg
   4. NeuronTypes -- types of hidden unit nonlinearities.
   5. TrainingNet -- how to train the net.
   6. Options -- the command-line arguments that the net takes.
