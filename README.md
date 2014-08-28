@@ -87,7 +87,9 @@ In this experiment, the sample codes to train a LeNet for MINIST dataset
 
 #### 03 Transform Caffe to cuda-convnet
 ##### Why?
-After reading 'Learning a Deep Conv. Network For Image Super-Resolution' again, I found their implementation based on convnet[14], which is cuda-convnet  
+1. After reading 'Learning a Deep Conv. Network For Image Super-Resolution' again, I found their implementation based on convnet[14], which is cuda-convnet  
+2. Caffe supports cross entropy and softmax as the loss function which are well-known lelated to probability and widely used for classification problem. If you want to see why most people use cross entropy(usually for 0/1 classification) as cost function usually for 0/1 classification and softmax as cost function usually for multi-classification. You could reference to link below
+  * 
 Compiling -- how to check out and compile this code.
 Data -- what kind of data this net can train on.
 LayerParams -- how to specify an architecture for the net.
