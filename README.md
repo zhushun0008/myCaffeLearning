@@ -104,10 +104,23 @@ In this experiment, the sample codes to train a LeNet for MINIST dataset
   1. Compiling -- how to check out and compile this code.
   2. Data -- what kind of data this net can train on.(CIFAR-10 dataSet)
   3. LayerParams -- how to specify an architecture for the net. (Define Net architecture and parameters)
+   * http://www.cs.toronto.edu/~kriz/cifar.html
   4. NeuronTypes -- types of hidden unit nonlinearities.
   5. TrainingNet -- how to train the net.
   6. Options -- the command-line arguments that the net takes.
   7. ViewingNet -- how to look inside the checkpoints saved by the net.
   8. CheckingGradients -- how to numerically test the gradients for correctness.
 
-2. 
+2. Our work may have 2 things
+   * Write the python code to format data as input of nueral
+   * One-layer autoencoder deployed with cuda-convnet
+      * one layer autoencoder is simple and easy to check whether our network work correctly
+      * Check whether Sum of Square as cost function works correctly
+      * Change classification to Regression
+
+#### 04 Deploy neural network on the paper 'Learning a Deep Convolutional Network for Images Super-Resolution'
+1. Auto-encoder to check sum of squre works well
+2. Data is suitalbe for cuda-convet
+3. Deploy neural network
+
+    
