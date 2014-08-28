@@ -86,15 +86,28 @@ In this experiment, the sample codes to train a LeNet for MINIST dataset
      *  solver.prototxt (training parameters defined here)
 
 #### 03 Transform Caffe to cuda-convnet
-##### Why?
+##### 1. Why?
 1. After reading 'Learning a Deep Conv. Network For Image Super-Resolution' again, I found their implementation based on convnet[14], which is cuda-convnet  
-2. Caffe supports cross entropy and softmax as the loss function which are well-known lelated to probability and widely used for classification problem. If you want to see why most people use cross entropy(usually for 0/1 classification) as cost function usually for 0/1 classification and softmax as cost function usually for multi-classification. You could reference to link below
-  * 
-Compiling -- how to check out and compile this code.
-Data -- what kind of data this net can train on.
-LayerParams -- how to specify an architecture for the net.
-NeuronTypes -- types of hidden unit nonlinearities.
-TrainingNet -- how to train the net.
-Options -- the command-line arguments that the net takes.
-ViewingNet -- how to look inside the checkpoints saved by the net.
-CheckingGradients -- how to numerically test the gradients for correctness.
+2. Caffe supports cross entropy and softmax as the loss function which are well-known lelated to probability and widely used for classification problem. If you want to see why most people use cross entropy(usually for 0/1 classification) as cost function usually for 0/1 classification and softmax as cost function usually for multi-classification. You could reference to link below. Unfortunately, Caffe does not support Sum of Square as cost function. To reduce the time we spend to implement the CNN we want, I change to cuda-convnet. 
+  * why do people use cross entropy
+    * from page 15 of Lecture 6   
+      * https://onedrive.live.com/view.aspx?cid=463E1A10579138DE&resid=463E1A10579138DE%2114002&app=WordPdf
+  * Why do people use softmax
+    * http://cs229.stanford.edu/notes/cs229-notes1.pdf
+3. Caffe and Cuda-convnet have similar interface.
+  * Define Network architecture
+  * Configure the Network parameters
+  * Implement a own function to manipulate the original data to meet the requirement of the input of these 2 modules
+ 
+##### 2. Train CIFAR-10 dataSet(Success)
+1. running the demo code.
+  1. Compiling -- how to check out and compile this code.
+  2. Data -- what kind of data this net can train on.(CIFAR-10 dataSet)
+  3. LayerParams -- how to specify an architecture for the net. (Define Net architecture and parameters)
+  4. NeuronTypes -- types of hidden unit nonlinearities.
+  5. TrainingNet -- how to train the net.
+  6. Options -- the command-line arguments that the net takes.
+  7. ViewingNet -- how to look inside the checkpoints saved by the net.
+  8. CheckingGradients -- how to numerically test the gradients for correctness.
+
+2. 
