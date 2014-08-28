@@ -122,7 +122,14 @@ In this experiment, the sample codes to train a LeNet for MINIST dataset
 
 #### 04 Deploy neural network on the paper 'Learning a Deep Convolutional Network for Images Super-Resolution'
 1. Auto-encoder to check sum of squre works well
-2. Data is suitalbe for cuda-convet
-3. Deploy neural network
+   * layer-def
+   * layer-params
+
+2.Deep Convolutional Network for Images Super-Resolution
+  1. Data is suitalbe for cuda-convet
+      * MRdata_provider.py
+  2. Deploy neural network
+      * layer-def
+      * layer-params
 
     
