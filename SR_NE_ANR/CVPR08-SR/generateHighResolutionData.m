@@ -1,6 +1,9 @@
 function [subImageHighSet] = generateHighResolutionData(tr_dir, subImageSize, stride)
 % Generate the 'sub-Images' with stride of 14 for training dataset.
 
+tar_dir = 'Data/highSubImages';
+tarImagePath = fullfile(tar_dir,'*.bmp');
+delete(tarImagePath);
 fpath = fullfile(tr_dir, '*.bmp');
 img_dir = dir(fpath);
 

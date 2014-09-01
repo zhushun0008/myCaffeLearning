@@ -20,7 +20,7 @@ addpath('Sparse coding');
 % =====================================================================
 % specify the parameter settings
 
-patch_size = 32; % patch size for the low resolution input image
+patch_size = 64; % patch size for the low resolution input image
 overlap = 14; % Stride/overlap between adjacent patches
 stride = 14; % Stride is big to get nearly independent sub-images
 lambda = 0.1; % sparsity parameter
@@ -28,7 +28,7 @@ zooming = 3; % zooming factor, if you change this, the dictionary needs to be re
 
 tr_dir = 'Data/training'; % path for training images
 skip_generate_HighResolutionData = false; % generating high-resolution sub-images for training
-skip_generate_LowResolutionData = false; % generating low-resolution sub-images for training
+skip_generate_LowResolutionData = true; % generating low-resolution sub-images for training
 
 skip_dictionary_training = true; % train the coupled dictionary
 num_patch = 24800; % number of patches to sample as the dictionary
