@@ -138,6 +138,7 @@ I have already implemented the first version, which could do the training proces
 todo:
 1. format data for feeding into the network
 2. get reconstrcted data from the trained network
+3. need to understand some parameters, such as expW,expB,momW,momB
 
 If it is fine, we could move to Deep Convolutional Network for Images Super-Resolution.
 
