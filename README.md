@@ -135,6 +135,12 @@ In this experiment, the sample codes to train a LeNet for MINIST dataset
 ##### 01. Auto-encoder implemented with cuda-convnet
 I have already implemented the first version, which could do the training process but need the data to verify it.
 
+todo:
+1. format data for feeding into the network
+2. get reconstrcted data from the trained network
+
+If it is fine, we could move to Deep Convolutional Network for Images Super-Resolution.
+
 
 ##### 02. Deep Convolutional Network for Images Super-Resolution
     
